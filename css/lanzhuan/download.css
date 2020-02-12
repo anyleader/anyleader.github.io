@@ -1,0 +1,330 @@
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-focus-ring-color: rgba(0, 0, 0, 0);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:focus,
+*:active {
+  outline: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:active {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+html,
+body {
+}
+
+body {
+  -webkit-text-size-adjust: none;
+  color: #333333;
+  font-family:Arial,"Microsoft Yahei", Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.6em;
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  font-weight: normal;
+}
+
+.clearfix:before,
+.clearfix:after
+{
+  display: table;
+  content: '';
+}
+
+.clearfix:after
+{
+  clear: both;
+}
+p {
+  margin: 0;
+}
+.fl
+{
+  float: left;
+}
+
+.fr
+{
+  float: right;
+}
+
+header {
+  background: url("../../img/lanzhuan/icon.png") 0 0 no-repeat;
+  background-size: 68px 68px;
+  margin: 48px 45px 10px;
+  padding-left: 78px;
+}
+h1 {
+  margin: 0;
+  font-size: 27px;
+  line-height: 34px;
+}
+h2 {
+  margin: 0;
+  font-size: 15px;
+  color: #999999;
+  padding: 8px 0;
+}
+section {
+  margin: 0 45px;
+}
+#wrap {
+  max-width: 414px;
+  margin: 0 auto;
+}
+.code-wrap {
+  max-width: 384px;
+  font-size: 12px;
+  line-height: 28px;
+  height: 28px;
+}
+.code-wrap p {
+  padding-left: 5px;
+}
+.code-wrap em {
+  display: inline-block;
+  background: url("../img/code_bk.png") 0 0 no-repeat;
+  background-size: 100%;
+  width: 90px;
+  height: 28px;
+  padding-left: 10px;
+  margin: 0 1px;
+  font-style: normal;
+  color: #dc4607;
+  letter-spacing: 0.4px;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 25px;
+}
+.code-wrap span {
+  color: #e95a1e;
+}
+.code-wrap img {
+  margin-left: 15px;
+  width: 85px;
+  padding-top: 15px;
+}
+#download-button {
+  display: block;
+  width: 270px;
+  margin: 10px auto 20px;
+  background-color: #f58220;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 6px;
+  height: 50px;
+  font-family: "黑体";
+}
+.mid-wrap {
+}
+.mid-wrap ul {
+  margin: 20px auto 0;
+  font-size: 12px;
+  list-style: none;
+  padding: 0;
+  width: 190px;
+}
+.mid-wrap ul li {
+  background: url('../img/black.png') 3px 8px no-repeat;
+  padding-left: 15px;
+  background-size: 6px;
+}
+.bottom-wrap {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: url("../../img/lanzhuan/bottom.png") bottom center no-repeat;
+  background-size: contain;
+  text-align: center;
+}
+.bottom-wrap img{
+  width: 230px;
+  margin-bottom: -7px;
+}
+
+@media all and (max-width: 320px){
+  header{
+    margin: 30px 37px 10px;
+  }
+  header h1{
+    font-size: 24px;
+  }
+  section {
+    margin: 0 37px;
+  }
+  .code-wrap {
+    font-size: 11px;
+    line-height: 25px;
+    height: 25px;
+  }
+  .code-wrap p{
+    padding-left: 0;
+  }
+  .code-wrap em {
+    width: 80px;
+    height: 25px;
+    line-height: 22px;
+    margin: 0;
+  }
+  #download-button {
+    width: 240px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 18px;
+  }
+  .bottom-wrap img {
+    width: 210px;
+  }
+}
+
+
+/* 360*640 微信*/
+@media all and (max-height: 572px){
+  header{
+    margin-top: 32px;
+  }
+}
+/* 小米3/4 3:518 4:526浏览器*/
+@media all and (max-height: 526px){
+  .bottom-wrap img {
+    width: 190px;
+  }
+}
+/*iphone5 微信*/
+@media all and (max-height: 504px){
+  .bottom-wrap img {
+    width: 185px;
+  }
+  header {
+    margin-top: 24px;
+  }
+}
+/*iphone4 safari*/
+@media (max-height: 480px) {
+  .bottom-wrap img {
+    width: 142px;
+  }
+}
+/*iphone4 微信*/
+@media all and (max-height: 416px){
+  .bottom-wrap img {
+    width: 110px;
+  }
+}
+/*iphone 6*/
+@media all and (min-width: 375px){
+
+}
+/* g4*/
+@media all and (min-width: 384px){
+  section {
+    margin: 0 52px;
+  }
+  header {
+    margin-left: 52px;
+  }
+}
+/*iphone 6 plus*/
+@media all and (min-width: 414px){
+  header {
+    margin: 48px 67px 10px;
+  }
+  section {
+    margin: 0 67px;
+  }
+  #wrap{
+    position: relative;
+  }
+  .bottom-wrap {
+    bottom: auto;
+    top: 280px;
+  }
+}
+@media all and (min-width: 414px) and (min-height: 672px){
+
+}
+@media all and (min-width: 414px) and (min-height: 736px){
+
+}
+/*用户登录指引页 a b*/
+.guide {
+  margin: 17px 0 24px;
+}
+.guide h3 {
+  text-align: center;
+  font-weight: bold;
+}
+.guide i {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+  font-size: 15px;
+  text-align: center;
+  background-color: rgb(102,102,102);
+  border-radius: 50%;
+  font-style: normal;
+  color: white;
+  position: absolute;
+  left: 15px;
+  top: 4px;
+  padding-right: 1px;
+}
+.guide p {
+  padding:0 34px;
+  position: relative;
+}
+.guide img {
+  display: block;
+  padding: 19px 50px 24px;
+  width: 100%;
+}
+img.guide-code {
+  width: 160px;
+  display: block;
+  padding: 0;
+  margin: 19px auto 24px;
+}
+
+/* 微信下的引导 */
+#cover {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8) url(http://fast-cdn.dianjoy.com/hongbao/api/img/weixin.png) no-repeat right top;
+  background-size: 76%;
+  display: none;
+}
+#cover_ios {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8) url(http://fast-cdn.dianjoy.com/hongbao/api/img/weixin_ios.png) no-repeat right top;
+  background-size: 76%;
+  display: none;
+}
