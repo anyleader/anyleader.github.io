@@ -1,0 +1,11 @@
+
+git add .
+git commit -m "添加文件"
+git push -u origin master
+
+
+https://anyleader.github.io/lanzhuan.html【懒人赚钱】
+
+https://anyleader.github.io/photo.html【H5实现拍照，不错】
+
+https://anyleader.github.io/demo.html【H5实现拍照，支持PC和https的手机】
