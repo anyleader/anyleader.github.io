@@ -16,13 +16,21 @@
  </style> 
 </head> 
 <body> 
- <h1 class="text-center">上传证件...</h1> 
+ <h1 class="text-center">调用相机拍照、摄像机录像、文件选择（选择任何文件包含相册照片的选择）</h1> 
  <hr/> 
  <input type="file"/> 
  <div id="result" align="center"></div> 
  <hr/>
 
- 
+ <h1 class="text-center">只调用相机拍照</h1> 
+ <hr/> 
+ <input type="file" accept="image/*" capture="camera" size="30"> 
+ <hr/>
+
+<h1 class="text-center">调用相机拍照、选择文件</h1> 
+ <hr/> 
+ <input type="file" accept="image/*" size="30"> 
+ <hr/> 
   
  <!-- 引入jQuery -->
  <script type="text/javascript" src="../js/jQuery/jquery-1.9.1.min.js"></script> 
